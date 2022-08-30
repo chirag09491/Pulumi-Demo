@@ -132,4 +132,5 @@ instance_resource= oci.core.Instance(
     state="RUNNING",
     )
 pulumi.export("INstance_IP",instance_resource.public_ip)
+pulumi.export("Subnet OCID",node_subnet.compartment_id)
     
