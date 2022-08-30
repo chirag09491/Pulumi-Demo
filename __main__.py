@@ -50,11 +50,11 @@ vcn = oci.core.Vcn(
 # node_subnet = oci.core.get_subnet(subnet_id="ocid1.subnet.oc1.iad.aaaaaaaakjsvu3ff5vabrkdz7qthwlc6sqthv5fc7w5xrjyz3bntxchiopta")
 ####
 
-# nat_gateway = oci.core.NatGateway(
-#     "nat-gateway_test_chirag",
-#     compartment_id = compartment_ocid,
-#     vcn_id=vcn.id
-# )
+nat_gateway = oci.core.NatGateway(
+    "nat-gateway_test_chirag",
+    compartment_id = compartment_ocid,
+    vcn_id=vcn.id
+)
 internet_gateway = oci.core.InternetGateway(
     "oke_internet_gateway_TEST",
     compartment_id = compartment_ocid,
