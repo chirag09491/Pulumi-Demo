@@ -1,0 +1,6 @@
+name: Pulumi-test
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: OCI-LAB-TEST-1

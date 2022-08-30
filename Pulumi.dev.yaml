@@ -1,0 +1,14 @@
+config:
+  Pulumi-test:CompartmentOCID:
+    secure: AAABAFDYW/JZ6EB+qBpD/V9sLAyaif8vSe/euqYGdoMP7higjbiy52HxdMRORAYRwdcs8jgtB67J9k69roQYoedkZrFpK3J5ryiu4aLNhvJxH+IC1e+e7Ra07j/dLf2vfj5V1JBrTNyFtTApD4glQmElmw==
+  Pulumi-test:path_ssh_pubkey: C:\Users\Chirag Sharma\.oci\oci_api_key_public.pem
+  oci:fingerprint:
+    secure: AAABAF9oXh05sFz/PPqrBKsUnLKQkFKroIxx76y7ap/fzg3DbjsWsfevRPSIJrgTQxLufXnOFHD9w//tw7mPhjl20DuWYBEeHha+v2U12A==
+  oci:privateKeyPassword:
+    secure: AAABAElZxlaY7Fh9KqIBWq2C9xJP955GDsAfRfNqjlD4XXLQhT87Wiwo
+  oci:privateKeyPath: C:\Users\Chirag Sharma\.oci\oci_api_key.pem
+  oci:region: us-ashburn-1
+  oci:tenancyOcid:
+    secure: AAABAErw93NWNAgUCMqLLoMdTejZfmORFkFLnLIkyuCOPcyPtXp40hccY6O3qAiygTLLK74W6AX0guRns4iH5rZ+miR9dL+yvuby4exgC55x9xZxIGUJnPNCFEF8GXvHYKAHvCmWCWA2VPPpUuMR
+  oci:userOcid:
+    secure: AAABAKD9/TecYvj0bPEJaqd3kY1qKosbxJvK/4XlFQL3grC8/15HlzO+S2CVKppKceRxL5xH1fXJiwdTz/yETR/A3K66N5tEVPFhcIgh/oGg50oGu3fmxo1bDUhGchOqdpNqkRgfjx/xDFXA
